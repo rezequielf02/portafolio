@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ezequiel Fuenzalida - Web Designer" />
+    <meta name="description" content="Diseños web a la medida para tu empresa,negocio o emprendimiento!." />
+    <meta name="keywords" content="Desarrollador web Ezequiel Fuenzalida Web Designer Responsive Diseñador Programador">
+
+    <title>Ezequiel Fuenzalida - Web Designer</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">       
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/fontawesome.min.css">
+    <link rel="stylesheet" href="/css/all.min.css">
+    <link rel="stylesheet" type="text/css" href="./fancybox/jquery.fancybox-1.3.4.css" media="screen" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+</head>
+<body class="body">
+
+    <!-- START HEADER -->
+    <header class="header anim0">
+        <img src="/image/logo.png" class="header__logo animLogo" alt="Ezequiel Fuenzalida" title="Ezequiel Fuenzalida">
+        <nav class="nav animNav">
+            <ul class="nav__ul">
+                <li class="nav__li">
+                    <a href="index.html" class="nav__a nav-a__active text-color">Inicio</a>
+                </li>
+                <li class="nav__li">
+                    <a href="#proyectos" class="nav__a text-color">Proyectos</a>
+                </li>
+                <li class="nav__li">
+                    <a href="#contacto" class="nav__a text-color">Contacto</a>
+                </li>
+            </ul>
+            <div class="nav-btn"></div>
+        </nav>
+    </header>
+    <!-- END HEADER -->
+
+    <!-- START HERO -->
+    <section class="hero-section">
+        <div class="hero-info animHero">
+            <div class="hero-perfil">
+                <img class="hero-perfil__img" src="/image/logo.png" alt="Ezequiel Fuenzalida">
+            </div>
+            <h1 class="hero-info__h1">Ezequiel Fuenzalida</h1>
+            <h2 class="hero-info__h2">Web Designer</h2>
+            <div class="hero-info-skills">
+                <img src="/image/html.png" alt="html5" class="hero-info__img hero-info__html">
+                <img src="/image/css3.png" alt="css3" class="hero-info__img hero-info__css3">
+                <img src="/image/js.png" alt="javascript" class="hero-info__img hero-info__js">
+            </div>
+        </div>
+    </section>
+    <!-- END HERO -->
+    
+    <main class="contenido-principal">
+
+        <!-- START SERVICES -->
+        <section class="servicios-section anim5">
+            <div class="servicios-box" id="lazy-img1">
+                <img src="/image/responsive.png" alt="Responsive design" class="servicios-box__img">
+                <h3 class="servicios-box__h3">Responsive design</h3>
+                <div class="separador-horizontal"></div>
+                <p class="servicios-box__p">Diseños a la medida y 100% adaptables a cualquier dispositivo movil.</p>
+            </div>
+    
+            <div class="servicios-box" id="lazy-img2">
+                <img src="/image/interfaz.jpg" alt="Interfaz sencilla" class="servicios-box__img">
+                <h3 class="servicios-box__h3">Interfaz sencilla</h3>
+                <div class="separador-horizontal"></div>
+                <p class="servicios-box__p">Interfaz amigable y facil de entender para cualquir usuario.</p>
+            </div>
+    
+            <div class="servicios-box" id="lazy-img3">
+                <img src="/image/seo.png" alt="SEO" class="servicios-box__img">
+                <h3 class="servicios-box__h3">SEO</h3>
+                <div class="separador-horizontal"></div>
+                <p class="servicios-box__p">Profesionales en optimizacion y posicionamiento.</p>
+            </div>
+        </section>
+        <!-- END SERVICES -->
+
+        <!-- START PROYECTOS -->
+        <section id="proyectos" class="proyectos-section lazy-img4">
+            <h2 class="proyectos__h2">Mis Proyectos</h2>
+            <ul class="proyectos__ul">
+                <li class="proyectos__li" id="lazy-img5">
+                    <a id="example4" class="proyectos__a" href="www.faceboook.com" title="73 Artesanias">
+                        <i class="proyectos__span fa-solid fa-eye"></i>
+                        <img alt="73 Artesanias" src="image/proyecto-73artesanias.png" class="proyectos__img"/>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        
+        <!-- END PROYECTOS -->
+        <div class="separador-horizontal2"></div>
+        <!-- START CONTACTO -->
+        <section id="contacto" class="contacto-section lazy-img6">
+            <div class="contacto-banner">
+                <p class="contacto-banner__p">¿Estás interesado?</p>
+                <p class="contacto-bannner__p2">Dejame un mensaje y te respondere a la brevedad</p>
+            </div>
+            <!-- FORM SECTION -->
+            <form class="form-contenedor" id="lazy-img1"  method="post" action="https://formspree.io/f/xoqrwqzg">
+                  <input class="form__input" placeholder="Nombre *" type="text" id="name" required> 
+                  <input class="form__input" type="email" placeholder="Email *" id="email" required>
+                  <input class="form__input" type="text" id="empresa" placeholder="Empresa">
+                <textarea class="form__msg" name="message" placeholder="Mensaje" id="user__message" cols="30" rows="10"></textarea>
+                <input type="submit" value="Enviar" class="form__btn">
+            </form>
+        </section>
+        <!-- END CONTACTO -->
+
+        <!-- START REDES -->
+        <!-- <section class="redes-section">
+            <h2 class="redes__h2">Seguime en mis redes!</h2>
+            <ul class="redes__ul">
+                <li class="redes__li">
+                    <a href="#" class="redes__a">
+                        <i class="redes__i redes__fb fab fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li class="redes__li">
+                    <a href="#" class="redes__a">
+                        <i class="redes__i redes__ig fab fa-facebook-f"></i>
+                    </a>
+                </li>
+                <li class="redes__li">
+                    <a href="#" class="redes__a">
+                        <i class="redes__i redes__link fab fa-facebook-f"></i>
+                    </a>
+                </li>
+            </ul>
+        </section> -->
+        <!-- END REDES -->
+
+    </main>
+
+    <footer class="footer">
+        <p class="footer__p">&copy; Ezequiel Fuenzalida - Todos los derechos reservados</p>
+    </footer>
+
+    <!-- DARKMODE-BTN -->
+    <div class="darkModeBtn">
+        <i class="fa-solid fa-sun"></i>
+        <i class="fa-solid fa-moon"></i>
+    </div>
+    
+    <!-- SCRIPTS -->
+    <script src="/js/jquery-1.4.3.min.js"></script>
+    <script src="/js/index.js"></script>
+    <script src="/fancybox/jquery.easing-1.3.pack.js"></script>
+    <script src="/fancybox/jquery.fancybox-1.3.4.js"></script>
+    <script src="/fancybox/jquery.fancybox-1.3.4.pack.js"></script>
+    <script src="/fancybox/jquery.mousewheel-3.0.4.pack.js"></script>
+
+</body>
+</html>
